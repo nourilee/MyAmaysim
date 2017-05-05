@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="12" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation Suite" duration-ms="340713" started-at="2017-05-05T18:06:45Z" finished-at="2017-05-05T18:12:26Z">
+    <groups>
+    </groups>
+    <test name="Test MyAmaysim Settings" duration-ms="340713" started-at="2017-05-05T18:06:45Z" finished-at="2017-05-05T18:12:26Z">
+      <class name="testSuite.AmaysimSettings">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="setUp" is-config="true" duration-ms="10650" started-at="2017-05-06T02:06:45Z" finished-at="2017-05-06T02:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="32803" started-at="2017-05-06T02:06:56Z" finished-at="2017-05-06T02:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="assertValidNickname()[pri:1, instance:testSuite.AmaysimSettings@18e8568]" name="assertValidNickname" duration-ms="14418" started-at="2017-05-06T02:07:29Z" finished-at="2017-05-06T02:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertValidNickname -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:07:43Z" finished-at="2017-05-06T02:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="13199" started-at="2017-05-06T02:07:43Z" finished-at="2017-05-06T02:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="assertInvalidNickname()[pri:2, instance:testSuite.AmaysimSettings@18e8568]" name="assertInvalidNickname" duration-ms="20970" started-at="2017-05-06T02:07:56Z" finished-at="2017-05-06T02:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertInvalidNickname -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="1" started-at="2017-05-06T02:08:17Z" finished-at="2017-05-06T02:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="15813" started-at="2017-05-06T02:08:17Z" finished-at="2017-05-06T02:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="assertValidPin()[pri:3, instance:testSuite.AmaysimSettings@18e8568]" name="assertValidPin" duration-ms="16764" started-at="2017-05-06T02:08:33Z" finished-at="2017-05-06T02:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertValidPin -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="14341" started-at="2017-05-06T02:08:50Z" finished-at="2017-05-06T02:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:08:50Z" finished-at="2017-05-06T02:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="assertInvalidPin()[pri:4, instance:testSuite.AmaysimSettings@18e8568]" name="assertInvalidPin" duration-ms="11743" started-at="2017-05-06T02:09:04Z" finished-at="2017-05-06T02:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertInvalidPin -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:09:16Z" finished-at="2017-05-06T02:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="14389" started-at="2017-05-06T02:09:16Z" finished-at="2017-05-06T02:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="FAIL" signature="assertCallerID()[pri:5, instance:testSuite.AmaysimSettings@18e8568]" name="assertCallerID" duration-ms="3077" started-at="2017-05-06T02:09:30Z" finished-at="2017-05-06T02:09:33Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.00142055;" class="reveal-modal-bg"></div>
+Command duration or timeout: 87 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.00142055;" class="reveal-modal-bg"></div>
+Command duration or timeout: 87 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testSuite.AmaysimSettings.assertCallerID(AmaysimSettings.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCallerID -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:09:34Z" finished-at="2017-05-06T02:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="11266" started-at="2017-05-06T02:09:34Z" finished-at="2017-05-06T02:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="assertCallWait()[pri:6, instance:testSuite.AmaysimSettings@18e8568]" name="assertCallWait" duration-ms="9453" started-at="2017-05-06T02:09:45Z" finished-at="2017-05-06T02:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCallWait -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:09:54Z" finished-at="2017-05-06T02:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="17208" started-at="2017-05-06T02:09:54Z" finished-at="2017-05-06T02:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="FAIL" signature="assertVoiceMail()[pri:7, instance:testSuite.AmaysimSettings@18e8568]" name="assertVoiceMail" duration-ms="3718" started-at="2017-05-06T02:10:11Z" finished-at="2017-05-06T02:10:15Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.0351118;" class="reveal-modal-bg"></div>
+Command duration or timeout: 73 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.0351118;" class="reveal-modal-bg"></div>
+Command duration or timeout: 73 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testSuite.AmaysimSettings.assertVoiceMail(AmaysimSettings.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertVoiceMail -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:10:15Z" finished-at="2017-05-06T02:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="11893" started-at="2017-05-06T02:10:15Z" finished-at="2017-05-06T02:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="FAIL" signature="assertUsageAlerts()[pri:8, instance:testSuite.AmaysimSettings@18e8568]" name="assertUsageAlerts" duration-ms="2371" started-at="2017-05-06T02:10:27Z" finished-at="2017-05-06T02:10:29Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.0559318;" class="reveal-modal-bg"></div>
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.0559318;" class="reveal-modal-bg"></div>
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testSuite.AmaysimSettings.assertUsageAlerts(AmaysimSettings.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertUsageAlerts -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="12504" started-at="2017-05-06T02:10:29Z" finished-at="2017-05-06T02:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:10:29Z" finished-at="2017-05-06T02:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="assertIntlRoam()[pri:9, instance:testSuite.AmaysimSettings@18e8568]" name="assertIntlRoam" duration-ms="9228" started-at="2017-05-06T02:10:42Z" finished-at="2017-05-06T02:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertIntlRoam -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:10:51Z" finished-at="2017-05-06T02:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="11933" started-at="2017-05-06T02:10:51Z" finished-at="2017-05-06T02:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="assertCallFwd()[pri:10, instance:testSuite.AmaysimSettings@18e8568]" name="assertCallFwd" duration-ms="25261" started-at="2017-05-06T02:11:03Z" finished-at="2017-05-06T02:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCallFwd -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="14092" started-at="2017-05-06T02:11:28Z" finished-at="2017-05-06T02:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:11:28Z" finished-at="2017-05-06T02:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="FAIL" signature="assertSMSLimit()[pri:11, instance:testSuite.AmaysimSettings@18e8568]" name="assertSMSLimit" duration-ms="4022" started-at="2017-05-06T02:11:42Z" finished-at="2017-05-06T02:11:46Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.0264508;" class="reveal-modal-bg"></div>
+Command duration or timeout: 80 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element <a href="/my-account/my-amaysim/settings"></a> is not clickable at point (112, 480.6000061035156). Other element would receive the click: <div style="display: block; opacity: 0.0264508;" class="reveal-modal-bg"></div>
+Command duration or timeout: 80 milliseconds
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'ISD-PF01BZG8', ip: '169.254.235.59', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfe0688f-0ed3-4d22-bb61-1e4b94278a4c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testSuite.AmaysimSettings.assertSMSLimit(AmaysimSettings.java:221)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertSMSLimit -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:11:46Z" finished-at="2017-05-06T02:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logIn" is-config="true" duration-ms="11859" started-at="2017-05-06T02:11:46Z" finished-at="2017-05-06T02:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="assertAutoRcg()[pri:12, instance:testSuite.AmaysimSettings@18e8568]" name="assertAutoRcg" duration-ms="26087" started-at="2017-05-06T02:11:58Z" finished-at="2017-05-06T02:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAutoRcg -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="logOut" is-config="true" duration-ms="0" started-at="2017-05-06T02:12:24Z" finished-at="2017-05-06T02:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.AmaysimSettings@18e8568]" name="tearDown" is-config="true" duration-ms="1605" started-at="2017-05-06T02:12:24Z" finished-at="2017-05-06T02:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuite.AmaysimSettings -->
+    </test> <!-- Test MyAmaysim Settings -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]">
+  <test name="Test MyAmaysim Settings(failed)">
+    <classes>
+      <class name="testSuite.AmaysimSettings">
+        <methods>
+          <include name="logOut"/>
+          <include name="tearDown"/>
+          <include name="assertSMSLimit"/>
+          <include name="assertVoiceMail"/>
+          <include name="assertCallerID"/>
+          <include name="setUp"/>
+          <include name="assertUsageAlerts"/>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- testSuite.AmaysimSettings -->
+    </classes>
+  </test> <!-- Test MyAmaysim Settings(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite] -->
